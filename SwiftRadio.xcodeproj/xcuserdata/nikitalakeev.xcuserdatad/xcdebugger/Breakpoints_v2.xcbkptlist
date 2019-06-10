@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/NowPlayingViewController.swift"
+            timestampString = "581880140.856328"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "NowPlayingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.radioPlayer.getter : SwiftRadio.FRadioPlayer"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.956916"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwiftRadio.NowPlayingViewController"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.960216"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1880">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwiftRadio.NowPlayingViewController&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.963044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1797">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/NowPlayingViewController.swift"
+            timestampString = "581880140.8564301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "NowPlayingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.currentTrack.getter : Swift.Optional&lt;SwiftRadio.Track&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.977293"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.currentTrack.setter : Swift.Optional&lt;SwiftRadio.Track&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.9800121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "242">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.currentTrack.modify : Swift.Optional&lt;SwiftRadio.Track&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.982806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.currentTrack.modify : Swift.Optional&lt;SwiftRadio.Track&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.985605"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwiftRadio.NowPlayingViewController"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.988441"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1594">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.NowPlayingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwiftRadio.NowPlayingViewController&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/Downloads/Swift-Radio-Pro-master/SwiftRadio/NowPlayingViewController.swift"
+                  timestampString = "579855532.991106"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1511">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/NowPlayingViewController.swift"
+            timestampString = "581880140.856537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/StationsViewController.swift"
+            timestampString = "581880140.856673"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/StationsViewController.swift"
+            timestampString = "581880140.857252"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

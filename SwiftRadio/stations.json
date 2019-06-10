@@ -1,0 +1,66 @@
+{
+    "station":
+    [
+        {
+            "name": "Japanese Music",
+            "streamURL": "https://sovietwave.su/listen.m3u",
+            "imageURL": "japanSelection",
+            "color":"#ee3e17",
+            "text_color":"#ffffff",
+            "shadow_color":"#FF441B",
+            "desc": "Collection of radios stations for calm and smooth night after long’n’hard working day",
+            "longDesc": "NZ's number one Rock music station."
+        },
+     {
+     "name": "🏝️ Awesome 80s",
+     "streamURL": "http://192.99.35.215:5266/listen.pls?sid=1&t=.m3u",
+     "imageURL": "station-absolutecountry.png",
+     "color":"#F092FF",
+     "text_color":"#ffffff",
+     "shadow_color":"#D7ADDE",
+     "desc": "Dive into atmosphere of american 80’s, most free time",
+     "longDesc": "All your favorite country hits and artists, from Johnny Cash to Taylor Swift, on 1.FM's Absolute Country, playing non-stop crooners and banjos, dance-tunes and fiddles, ballads and harmonicas. Absolute Country focuses on 5th, 6th and 7th generation Country (from the 90s on) but often delves into classic, older tunes as well."
+     },
+     {
+     "name": "🎧 Lo-Fi Hip-Hop",
+     "streamURL": "http://hyades.shoutca.st:8043/autodj.m3u",
+     "imageURL": "oldjapan.png",
+     "color":"#43D8BD",
+     "text_color":"#ffffff",
+     "shadow_color":"#74CDBD",
+     "desc": "Feel vibes of smooth and calm beats and do your things",
+     "longDesc": "Do you like Indie music and along with that wants a radio that will provide lots of folk music in their daily radio programs than wait not just tune in to Newport Folk Radio as this is the kind of radio that has got lots of types of Indie music in their daily radio programs along with popular Folk music."
+     },
+     {
+     "name": "🎻 Classic Rock",
+     "streamURL": "http://rfcmedia.streamguys1.com/classicrock.mp3",
+     "imageURL": "station-classicrock",
+     "color":"#93AAFC",
+     "text_color":"#ffffff",
+     "shadow_color":"#9AABE8",
+     "desc": "If you want to clear your mind and feel yourself better",
+     "longDesc": "Classic rock is a radio format which developed from the album-oriented rock (AOR) format in the early 1980s. In the United States, the classic rock format features music ranging generally from the late 1960s to the late 1980s, primarily focusing on commercially successful hard rock popularized in the 1970s. The radio format became increasingly popular with the baby boomer demographic by the end of the 1990s."
+     },
+     {
+     "name": "🎷 Jazz FM",
+     "streamURL": "http://uk3.internet-radio.com:8021/listen.pls&t=.m3u",
+     "imageURL": "",
+     "color":"#F9927B",
+     "text_color":"#ffffff",
+     "shadow_color":"#E38874",
+     "desc": "Jazz wii always be a music for artists and deep feeling people",
+     "longDesc": "Radio 1190 is the bomb."
+     },
+     {
+         "name": "😌 Post Rock",
+         "streamURL": "http://79.111.14.76:8002/postrock",
+         "imageURL": "",
+         "color":"#93AAFC",
+         "text_color":"#ffffff",
+         "shadow_color":"#9AABE8",
+         "desc": "Music beyond radio mainstream.",
+         "longDesc": "Radio 1190 is the bomb."
+     }
+    ]
+}
+
