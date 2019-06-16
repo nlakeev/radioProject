@@ -231,24 +231,34 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
     //*****************************************************************
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == "NowPlaying", let nowPlayingVC = segue.destination as? NowPlayingViewController else { return }
-        
-        title = ""
-        
-        let newStation: Bool
-        
-        if let indexPath = (sender as? IndexPath) {
-            // User clicked on row, load/reset station
-            radioPlayer.station = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
-            newStation = true
-        } else {
-            // User clicked on Now Playing button
-            newStation = false
+        if segue.identifier == "NowPlaying" {
+            guard segue.identifier == "NowPlaying", let nowPlayingVC = segue.destination as? NowPlayingViewController else { return }
+            
+            title = ""
+            
+            let newStation: Bool
+            
+            if let indexPath = (sender as? IndexPath) {
+                // User clicked on row, load/reset station
+                radioPlayer.station = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
+                newStation = true
+            } else {
+                // User clicked on Now Playing button
+                newStation = false
+            }
+            
+            nowPlayingViewController = nowPlayingVC
+            nowPlayingVC.load(station: radioPlayer.station, track: radioPlayer.track, isNewStation: newStation)
+            nowPlayingVC.delegate = self
         }
-        
-        nowPlayingViewController = nowPlayingVC
-        nowPlayingVC.load(station: radioPlayer.station, track: radioPlayer.track, isNewStation: newStation)
-        nowPlayingVC.delegate = self
+        else if segue.identifier == "RadioSelection"{
+            // Create a variable that you want to send
+            if let indexPath = (sender as? IndexPath) {
+                let selectionStations = stations[indexPath.row].subStations
+            // Create a new variable to store the instance of PlayerTableViewController
+            let destinationVC = segue.destination as! SelectionViewController
+                destinationVC.stations = selectionStations}
+        }
     }
     
     //*****************************************************************
@@ -496,3 +506,5 @@ extension StationsViewController: NowPlayingViewControllerDelegate {
         }
     }
 }
+
+

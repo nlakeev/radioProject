@@ -41,6 +41,30 @@ class CollectionViewCell: UICollectionViewCell {
         
     }
     
+    func configureSimpleStationCell(station: SimpleStation) {
+        
+        // Configure the cell...
+        StationName.text = station.name
+        stationDescription.text = station.desc
+        
+        let imageURL = station.imageURL as NSString
+        
+        if imageURL.contains("http") {
+            
+            if let url = URL(string: station.imageURL) {
+                stationImage.loadImageWithURL(url: url) { (image) in
+                    // station image loaded
+                }
+            }
+            
+        } else if imageURL != "" {
+            stationImage.image = UIImage(named: imageURL as String)
+            
+        } else {
+            stationImage.image = UIImage(named: "stationImage")
+        }
+        
+    }
     
     override func prepareForReuse() {
         super.prepareForReuse()

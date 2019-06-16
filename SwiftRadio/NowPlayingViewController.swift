@@ -337,15 +337,7 @@ class NowPlayingViewController: UIViewController {
     // MARK: - Segue
     //*****************************************************************
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == "InfoDetail", let infoController = segue.destination as? InfoDetailViewController else { return }
-        infoController.currentStation = currentStation
-    }
-    
-    @IBAction func infoButtonPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "InfoDetail", sender: self)
-    }
-    
+ 
     @IBAction func shareButtonPressed(_ sender: UIButton) {
         let songToShare = "I'm listening to \(currentTrack.title) on \(currentStation.name) via Swift Radio Pro"
         let activityViewController = UIActivityViewController(activityItems: [songToShare, currentTrack.artworkImage!], applicationActivities: nil)
