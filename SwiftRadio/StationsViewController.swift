@@ -81,16 +81,20 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
         setupHandoffUserActivity()
     }
     
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return stations.count
+    }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        if indexPath.row == 0 {performSegue(withIdentifier: "RadioSelection", sender: indexPath)} else {performSegue(withIdentifier: "NowPlaying", sender: indexPath)}
+        if stations[indexPath.section].subStations[indexPath.row].subStations.isEmpty {performSegue(withIdentifier: "NowPlaying", sender: indexPath)}
+        else {performSegue(withIdentifier: "RadioSelection", sender: indexPath)}
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if searchController.isActive {
             return searchedStations.count
         } else {
-            return stations.isEmpty ? 1 : stations.count
+            return stations[section].subStations.isEmpty ? 1 : stations[section].subStations.count
         }
     }
     
@@ -98,7 +102,15 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
         let cellWidth = UIScreen.main.bounds.size.width - 48
         let size = CGSize(width: cellWidth, height: 120)
         let sizeBig = CGSize(width: cellWidth, height: 260)
-        if indexPath.row == 0 {return sizeBig} else {return size}
+        if stations[indexPath.section].subStations[indexPath.row].subStations.isEmpty {return size} else {return sizeBig}
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let sectionHeaderView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "sectionHeaderView", for: indexPath) as! SectionHeaderView
+        let radioCategory = stations[indexPath.section].name
+        sectionHeaderView.categoryTitle = radioCategory
+        
+        return sectionHeaderView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -106,7 +118,7 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
         let cellBig = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         
         
-        let station = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
+        let station = searchController.isActive ? searchedStations[indexPath.section].subStations[indexPath.row] : stations[indexPath.section].subStations[indexPath.row]
         
         cellBig.configureStationCell(station: station)
         cellBig.StationName.textColor = UIColor.black
@@ -143,7 +155,7 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
         cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
         
         
-        if indexPath.row == 0 {return cellBig} else {return cell}
+        if stations[indexPath.section].subStations[indexPath.row].subStations.isEmpty {return cell} else {return cellBig}
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -240,7 +252,7 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
             
             if let indexPath = (sender as? IndexPath) {
                 // User clicked on row, load/reset station
-                radioPlayer.station = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
+                radioPlayer.station = searchController.isActive ? searchedStations[indexPath.section].subStations[indexPath.row] : stations[indexPath.section].subStations[indexPath.row]
                 newStation = true
             } else {
                 // User clicked on Now Playing button
@@ -254,7 +266,7 @@ class StationsViewController: UIViewController, UICollectionViewDataSource, UICo
         else if segue.identifier == "RadioSelection"{
             // Create a variable that you want to send
             if let indexPath = (sender as? IndexPath) {
-                let selectionStations = stations[indexPath.row].subStations
+                let selectionStations = stations[indexPath.section].subStations[indexPath.row].subStations
             // Create a new variable to store the instance of PlayerTableViewController
             let destinationVC = segue.destination as! SelectionViewController
                 destinationVC.stations = selectionStations}

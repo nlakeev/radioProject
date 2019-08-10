@@ -19,9 +19,9 @@ class SelectionViewController: UIViewController, UICollectionViewDataSource, UIC
     
     // MARK: - Lists
     
-    var stations = [SimpleStation]()
+    var stations = [RadioStation]()
     
-    var searchedStations = [SimpleStation]()
+    var searchedStations = [RadioStation]()
     
     // MARK: - UI
     
@@ -59,8 +59,7 @@ class SelectionViewController: UIViewController, UICollectionViewDataSource, UIC
     
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        if indexPath.row == 0 {performSegue(withIdentifier: "RadioSelection", sender: indexPath)} else {performSegue(withIdentifier: "NowPlaying", sender: indexPath)}
+        performSegue(withIdentifier: "NowPlaying", sender: indexPath)
     }
     
     
@@ -85,7 +84,7 @@ class SelectionViewController: UIViewController, UICollectionViewDataSource, UIC
         
         let station = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
         
-        cell.configureSimpleStationCell(station: station)
+        cell.configureStationCell(station: station)
         cell.radioName.textColor = UIColor(hex: station.text_color)
         cell.radioDescription.textColor =  UIColor(hex: station.text_color)
         //This creates the shadows and modifies the cards a little bit
@@ -121,7 +120,7 @@ class SelectionViewController: UIViewController, UICollectionViewDataSource, UIC
         
         if let indexPath = (sender as? IndexPath) {
             // User clicked on row, load/reset station
-            radioPlayer.simpleStation = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
+            radioPlayer.station = searchController.isActive ? searchedStations[indexPath.row] : stations[indexPath.row]
             newStation = true
         } else {
             // User clicked on Now Playing button
@@ -140,7 +139,7 @@ class SelectionViewController: UIViewController, UICollectionViewDataSource, UIC
     private func stationsDidUpdate() {
         DispatchQueue.main.async {
             //self.tableView.reloadData()
-            guard let currentStation = self.radioPlayer.simpleStation else { return }
+            guard let currentStation = self.radioPlayer.station else { return }
             
             // Reset everything if the new stations list doesn't have the current station
             if self.stations.index(of: currentStation) == nil { self.resetCurrentStation() }
@@ -154,7 +153,7 @@ class SelectionViewController: UIViewController, UICollectionViewDataSource, UIC
     }
     
     
-    private func getIndex(of station: SimpleStation?) -> Int? {
+    private func getIndex(of station: RadioStation?) -> Int? {
         guard let station = station, let index = stations.index(of: station) else { return nil }
         return index
     }
@@ -331,14 +330,14 @@ extension SelectionViewController: NowPlayingViewControllerDelegate {
     }
     
     func didPressNextButton() {
-        guard let index = getIndex(of: radioPlayer.simpleStation) else { return }
-        radioPlayer.simpleStation = (index + 1 == stations.count) ? stations[0] : stations[index + 1]
+        guard let index = getIndex(of: radioPlayer.station) else { return }
+        radioPlayer.station = (index + 1 == stations.count) ? stations[0] : stations[index + 1]
         handleRemoteStationChange()
     }
     
     func didPressPreviousButton() {
-        guard let index = getIndex(of: radioPlayer.simpleStation) else { return }
-        radioPlayer.simpleStation = (index == 0) ? stations.last : stations[index - 1]
+        guard let index = getIndex(of: radioPlayer.station) else { return }
+        radioPlayer.station = (index == 0) ? stations.last : stations[index - 1]
         handleRemoteStationChange()
     }
     

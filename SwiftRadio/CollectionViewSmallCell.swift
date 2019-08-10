@@ -25,14 +25,6 @@ class CollectionViewSmallCell: UICollectionViewCell {
         
     }
     
-    func configureSimpleStationCell(station: SimpleStation) {
-        
-        // Configure the cell...
-        radioName.text = station.name
-        radioDescription.text = station.desc
-        
-    }
-    
     
     override func prepareForReuse() {
         super.prepareForReuse()

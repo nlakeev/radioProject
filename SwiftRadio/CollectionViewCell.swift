@@ -41,7 +41,7 @@ class CollectionViewCell: UICollectionViewCell {
         
     }
     
-    func configureSimpleStationCell(station: SimpleStation) {
+    func configureSimpleStationCell(station: RadioStation) {
         
         // Configure the cell...
         StationName.text = station.name

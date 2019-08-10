@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/NowPlayingViewController.swift"
-            timestampString = "582400250.194628"
+            timestampString = "582999203.68099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -73,7 +73,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/NowPlayingViewController.swift"
-            timestampString = "582400250.194875"
+            timestampString = "582999203.681298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -181,7 +181,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/NowPlayingViewController.swift"
-            timestampString = "582400250.1950229"
+            timestampString = "582999203.681361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
@@ -197,11 +197,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/StationsViewController.swift"
-            timestampString = "582400250.195176"
+            timestampString = "582999203.681434"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "372"
-            endingLineNumber = "372"
+            startingLineNumber = "384"
+            endingLineNumber = "384"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
@@ -213,27 +213,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/StationsViewController.swift"
-            timestampString = "582400250.195346"
+            timestampString = "582999203.681637"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftRadio/StationsViewController.swift"
-            timestampString = "582400250.195459"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -245,11 +229,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/StationsViewController.swift"
-            timestampString = "582400250.19559"
+            timestampString = "582999203.681704"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "254"
-            endingLineNumber = "254"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -261,11 +245,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/StationsViewController.swift"
-            timestampString = "582400250.19575"
+            timestampString = "582999203.6817679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "257"
-            endingLineNumber = "257"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -277,11 +261,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/StationsViewController.swift"
-            timestampString = "582400250.195888"
+            timestampString = "582999203.681832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Locations>
@@ -325,23 +309,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/SelectionViewController.swift"
-            timestampString = "582400250.196062"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftRadio/SelectionViewController.swift"
-            timestampString = "582400250.196197"
+            timestampString = "582973632.838019"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -357,7 +325,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/SelectionViewController.swift"
-            timestampString = "582400250.196277"
+            timestampString = "582973632.838219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/SelectionViewController.swift"
+            timestampString = "582973632.838279"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -369,11 +353,11 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwiftRadio.SelectionViewController.stations.getter : Swift.Array&lt;SwiftRadio.SimpleStation&gt;"
+                  symbolName = "SwiftRadio.SelectionViewController.stations.getter : Swift.Array&lt;SwiftRadio.RadioStation&gt;"
                   moduleName = "SwiftRadio"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SelectionViewController.swift"
-                  timestampString = "582399994.514585"
+                  timestampString = "582973396.57425"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -384,11 +368,11 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwiftRadio.SelectionViewController.stations.setter : Swift.Array&lt;SwiftRadio.SimpleStation&gt;"
+                  symbolName = "SwiftRadio.SelectionViewController.stations.setter : Swift.Array&lt;SwiftRadio.RadioStation&gt;"
                   moduleName = "SwiftRadio"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SelectionViewController.swift"
-                  timestampString = "582399994.517162"
+                  timestampString = "582973396.576948"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -399,11 +383,11 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwiftRadio.SelectionViewController.stations.modify : Swift.Array&lt;SwiftRadio.SimpleStation&gt;"
+                  symbolName = "SwiftRadio.SelectionViewController.stations.modify : Swift.Array&lt;SwiftRadio.RadioStation&gt;"
                   moduleName = "SwiftRadio"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SelectionViewController.swift"
-                  timestampString = "582399994.519804"
+                  timestampString = "582973396.5795389"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -414,11 +398,11 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwiftRadio.SelectionViewController.stations.modify : Swift.Array&lt;SwiftRadio.SimpleStation&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  symbolName = "SwiftRadio.SelectionViewController.stations.modify : Swift.Array&lt;SwiftRadio.RadioStation&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "SwiftRadio"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SelectionViewController.swift"
-                  timestampString = "582399994.522501"
+                  timestampString = "582973396.582165"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -433,12 +417,12 @@
                   moduleName = "SwiftRadio"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SelectionViewController.swift"
-                  timestampString = "582399994.525171"
+                  timestampString = "582973396.584808"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
                   endingLineNumber = "22"
-                  offsetFromSymbolStart = "343">
+                  offsetFromSymbolStart = "342">
                </Location>
                <Location
                   shouldBeEnabled = "No"
@@ -448,12 +432,12 @@
                   moduleName = "SwiftRadio"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SelectionViewController.swift"
-                  timestampString = "582399994.527946"
+                  timestampString = "582973396.587322"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
                   endingLineNumber = "22"
-                  offsetFromSymbolStart = "268">
+                  offsetFromSymbolStart = "267">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -465,7 +449,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/SelectionViewController.swift"
-            timestampString = "582400250.196391"
+            timestampString = "582973632.838335"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -573,11 +557,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/SelectionViewController.swift"
-            timestampString = "582400250.196472"
+            timestampString = "582973632.838389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -589,12 +573,230 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftRadio/SelectionViewController.swift"
-            timestampString = "582400250.196618"
+            timestampString = "582973632.838444"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/SectionHeaderView.swift"
+            timestampString = "582999203.681999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SectionHeaderView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.SectionHeaderView.categoryTitleLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SectionHeaderView.swift"
+                  timestampString = "582966492.009755"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.SectionHeaderView.categoryTitleLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SectionHeaderView.swift"
+                  timestampString = "582966492.01249"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.SectionHeaderView.categoryTitleLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SectionHeaderView.swift"
+                  timestampString = "582966492.014817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.SectionHeaderView.categoryTitleLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SectionHeaderView.swift"
+                  timestampString = "582966492.017243"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.SectionHeaderView.init(frame: __C.CGRect) -&gt; SwiftRadio.SectionHeaderView"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SectionHeaderView.swift"
+                  timestampString = "582966492.019841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.SectionHeaderView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwiftRadio.SectionHeaderView&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/SectionHeaderView.swift"
+                  timestampString = "582966492.022586"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/StationsViewController.swift"
+            timestampString = "582999203.682197"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "stations"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.StationsViewController.stations.modify : Swift.Array&lt;SwiftRadio.RadioStation&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/StationsViewController.swift"
+                  timestampString = "582973396.598617"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.StationsViewController.stations.modify : Swift.Array&lt;SwiftRadio.RadioStation&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/StationsViewController.swift"
+                  timestampString = "582973396.601064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.StationsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwiftRadio.StationsViewController"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/StationsViewController.swift"
+                  timestampString = "582973396.603649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftRadio.StationsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwiftRadio.StationsViewController&gt;"
+                  moduleName = "SwiftRadio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalakeev/radioProject/SwiftRadio/StationsViewController.swift"
+                  timestampString = "582973396.606187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/SelectionViewController.swift"
+            timestampString = "582973632.83904"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftRadio/StationsViewController.swift"
+            timestampString = "582999203.682277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -33,10 +33,6 @@ class RadioPlayer {
         didSet { resetTrack(with: station) }
     }
     
-    var simpleStation: SimpleStation? {
-        didSet { resetSimpleTrack(with: simpleStation) }
-    }
-    
     private(set) var track: Track?
     
     init() {
@@ -78,12 +74,6 @@ class RadioPlayer {
         updateTrackMetadata(artistName: station.desc, trackName: station.name)
         resetArtwork(with: station)
     }
-    
-    func resetSimpleTrack(with station: SimpleStation?) {
-        guard let station = station else { track = nil; return }
-        updateTrackMetadata(artistName: station.desc, trackName: station.name)
-        resetSimpleArtwork(with: station)
-    }
 
     
     // Reset the track Artwork to current station image
@@ -94,32 +84,11 @@ class RadioPlayer {
         }
     }
     
-    func resetSimpleArtwork(with station: SimpleStation?) {
-        guard let station = station else { track = nil; return }
-        getSimpleStationImage(from: station) { image in
-            self.updateTrackArtwork(with: image, artworkLoaded: false)
-        }
-    }
-    
     //*****************************************************************
     // MARK: - Private helpers
     //*****************************************************************
     
     private func getStationImage(from station: RadioStation, completionHandler: @escaping (_ image: UIImage) -> ()) {
-        
-        if station.imageURL.range(of: "http") != nil {
-            // load current station image from network
-            ImageLoader.sharedLoader.imageForUrl(urlString: station.imageURL) { (image, stringURL) in
-                completionHandler(image ?? #imageLiteral(resourceName: "albumArt"))
-            }
-        } else {
-            // load local station image
-            let image = UIImage(named: station.imageURL) ?? #imageLiteral(resourceName: "albumArt")
-            completionHandler(image)
-        }
-    }
-    
-    private func getSimpleStationImage(from station: SimpleStation, completionHandler: @escaping (_ image: UIImage) -> ()) {
         
         if station.imageURL.range(of: "http") != nil {
             // load current station image from network

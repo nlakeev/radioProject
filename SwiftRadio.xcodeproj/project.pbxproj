@@ -54,6 +54,7 @@
 		C316AA7722AA933700E64D4A /* CollectionViewSmallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316AA7622AA933700E64D4A /* CollectionViewSmallCell.swift */; };
 		C316AA7922AD797A00E64D4A /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316AA7822AD797A00E64D4A /* SelectionViewController.swift */; };
 		C32696EB229005B300AD7002 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32696EA229005B300AD7002 /* CollectionViewCell.swift */; };
+		C3BDF5AE22BF56CF0088684F /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDF5AD22BF56CF0088684F /* SectionHeaderView.swift */; };
 		CAA8FDB52000614600050F77 /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8FDB42000614600050F77 /* RadioPlayer.swift */; };
 		CF72ACE721F7155200461EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF72ACE621F714D000461EED /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		C316AA7622AA933700E64D4A /* CollectionViewSmallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSmallCell.swift; sourceTree = "<group>"; };
 		C316AA7822AD797A00E64D4A /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		C32696EA229005B300AD7002 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C3BDF5AD22BF56CF0088684F /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		CAA8FDB42000614600050F77 /* RadioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
 		CF72ACE621F714D000461EED /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				C316AA7822AD797A00E64D4A /* SelectionViewController.swift */,
+				C3BDF5AD22BF56CF0088684F /* SectionHeaderView.swift */,
 				9409E13F1ABF78B000312E2B /* NowPlayingViewController.swift */,
 				942A3F361AE43DF80011396E /* StationsViewController.swift */,
 			);
@@ -443,6 +446,7 @@
 				94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */,
 				5F22BA3C1F72AD5A00CB5911 /* SpringLabel.swift in Sources */,
 				5F22BA3D1F72AD5A00CB5911 /* BlurView.swift in Sources */,
+				C3BDF5AE22BF56CF0088684F /* SectionHeaderView.swift in Sources */,
 				5F22BA411F72AD5A00CB5911 /* SpringTextField.swift in Sources */,
 				9409E1401ABF78B000312E2B /* NowPlayingViewController.swift in Sources */,
 				5F22BA4B1F72AD5A00CB5911 /* KeyboardLayoutConstraint.swift in Sources */,
@@ -637,7 +641,7 @@
 					"$(PROJECT_DIR)/SwiftRadio",
 				);
 				INFOPLIST_FILE = SwiftRadio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikitalakeev.SwiftRadio;
 				PRODUCT_NAME = SwiftRadio;
@@ -662,7 +666,7 @@
 					"$(PROJECT_DIR)/SwiftRadio",
 				);
 				INFOPLIST_FILE = SwiftRadio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikitalakeev.SwiftRadio;
 				PRODUCT_NAME = SwiftRadio;

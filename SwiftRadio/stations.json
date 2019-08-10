@@ -2,21 +2,25 @@
     "station":
     [
         {
+            "name": "Today's collection",
+            "streamURL": "","imageURL": "","color":"","text_color":"","shadow_color":"","desc": "",
+            "subStations": [{
             "name": "Japanese Music",
-            "streamURL": "https://sovietwave.su/listen.m3u",
+            "streamURL": "",
             "imageURL": "japanSelection",
             "color":"#ee3e17",
             "text_color":"#ffffff",
             "shadow_color":"#FF441B",
             "desc": "Collection of radios stations for calm and smooth night after long’n’hard working day",
             "subStations": [{
-                "name": "🎻 Хуянь Муянь}",
+                "name": "🎻 Хуянь Муянь",
                 "streamURL": "http://rfcmedia.streamguys1.com/classicrock.mp3",
                 "imageURL": "station-classicrock",
                 "color":"#93AAFC",
                 "text_color":"#ffffff",
                 "shadow_color":"#9AABE8",
-                "desc": "If you want to clear your mind and feel yourself better"
+                "desc": "If you want to clear your mind and feel yourself better",
+                "subStations": []
             },{
                 "name": "🎻 Хуюнь Муюнь",
                 "streamURL": "http://rfcmedia.streamguys1.com/classicrock.mp3",
@@ -24,7 +28,8 @@
                 "color":"#93AAFC",
                 "text_color":"#ffffff",
                 "shadow_color":"#9AABE8",
-                "desc": "If you want to clear your mind and feel yourself better"
+                "desc": "If you want to clear your mind and feel yourself better",
+                "subStations": []
             },{
                 "name": "🎻 Хуянь Муюнь",
                 "streamURL": "http://rfcmedia.streamguys1.com/classicrock.mp3",
@@ -32,10 +37,14 @@
                 "color":"#93AAFC",
                 "text_color":"#ffffff",
                 "shadow_color":"#9AABE8",
-                "desc": "If you want to clear your mind and feel yourself better"
+                "desc": "If you want to clear your mind and feel yourself better",
+                "subStations": []
             }]
-        },
-     {
+        }]},
+        {
+            "name": "Most popural",
+            "streamURL": "","imageURL": "","color":"","text_color":"","shadow_color":"","desc": "",
+            "subStations": [{
      "name": "🏝️ Awesome 80s",
      "streamURL": "http://192.99.35.215:5266/listen.pls?sid=1&t=.m3u",
      "imageURL": "station-absolutecountry.png",
@@ -64,27 +73,40 @@
      "shadow_color":"#9AABE8",
      "desc": "If you want to clear your mind and feel yourself better",
      "subStations": []
-     },
-     {
-     "name": "🎷 Jazz FM",
-     "streamURL": "http://uk3.internet-radio.com:8021/listen.pls&t=.m3u",
-     "imageURL": "",
-     "color":"#F9927B",
-     "text_color":"#ffffff",
-     "shadow_color":"#E38874",
-     "desc": "Jazz wii always be a music for artists and deep feeling people",
-     "subStations": []
-     },
-     {
-         "name": "😌 Post Rock",
-         "streamURL": "http://79.111.14.76:8002/postrock",
-         "imageURL": "",
-         "color":"#93AAFC",
-         "text_color":"#ffffff",
-         "shadow_color":"#9AABE8",
-         "desc": "Music beyond radio mainstream.",
-         "subStations": []
-     }
+     }]},
+        {
+            "name": "Most popural",
+            "streamURL": "","imageURL": "","color":"","text_color":"","shadow_color":"","desc": "",
+            "subStations": [{
+                "name": "🏝️ Awesome 80s",
+                "streamURL": "http://192.99.35.215:5266/listen.pls?sid=1&t=.m3u",
+                "imageURL": "station-absolutecountry.png",
+                "color":"#F092FF",
+                "text_color":"#ffffff",
+                "shadow_color":"#D7ADDE",
+                "desc": "Dive into atmosphere of american 80’s, most free time",
+                "subStations": []
+            },
+            {
+                "name": "🎧 Lo-Fi Hip-Hop",
+                "streamURL": "http://hyades.shoutca.st:8043/autodj.m3u",
+                "imageURL": "oldjapan.png",
+                "color":"#43D8BD",
+                "text_color":"#ffffff",
+                "shadow_color":"#74CDBD",
+                "desc": "Feel vibes of smooth and calm beats and do your things",
+                "subStations": []
+            },
+            {
+                "name": "🎻 Classic Rock",
+                "streamURL": "http://rfcmedia.streamguys1.com/classicrock.mp3",
+                "imageURL": "station-classicrock",
+                "color":"#93AAFC",
+                "text_color":"#ffffff",
+                "shadow_color":"#9AABE8",
+                "desc": "If you want to clear your mind and feel yourself better",
+                "subStations": []
+            }]}
     ]
 }
 

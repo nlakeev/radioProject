@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kdl-ej-Zz5">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="okA-XD-9uQ">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Swift Radio-->
+        <!--Главная-->
         <scene sceneID="7ik-k3-I0U">
             <objects>
-                <viewController id="enP-TM-Wa7" customClass="StationsViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Главная" id="enP-TM-Wa7" customClass="StationsViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OvF-E7-hdu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y05-35-5xn">
-                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="643" width="414" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pwh-sA-uBF" userLabel="NowPlaying Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -56,17 +53,17 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="K4U-17-ren">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="24" minimumInteritemSpacing="30" id="GaW-3F-PWt">
                                     <size key="itemSize" width="338" height="253"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="30" maxX="0.0" maxY="20"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="qi3-rP-blt" customClass="CollectionViewCell" customModule="SwiftRadio">
-                                        <rect key="frame" x="38" y="30" width="338" height="253"/>
+                                        <rect key="frame" x="38" y="80" width="338" height="253"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="338" height="253"/>
@@ -117,14 +114,14 @@
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="smallcell" id="7c2-vi-WXn" customClass="CollectionViewSmallCell" customModule="SwiftRadio" customModuleProvider="target">
-                                        <rect key="frame" x="38" y="307" width="338" height="120"/>
+                                        <rect key="frame" x="38" y="357" width="338" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="338" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umn-Zk-IwL">
-                                                    <rect key="frame" x="18" y="28" width="64" height="84"/>
+                                                    <rect key="frame" x="18" y="8" width="64" height="104"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="64" id="gu6-vi-CEI"/>
                                                     </constraints>
@@ -134,13 +131,13 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIX-sf-arr">
-                                                    <rect key="frame" x="110" y="83" width="210" height="17"/>
+                                                    <rect key="frame" x="110" y="63" width="210" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDQ-Cv-xx1">
-                                                    <rect key="frame" x="110" y="50" width="210" height="21"/>
+                                                    <rect key="frame" x="110" y="30" width="210" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="UXs-52-5ct"/>
                                                     </constraints>
@@ -169,6 +166,27 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="sectionHeaderView" id="ebe-We-Zsn" customClass="SectionHeaderView" customModule="SwiftRadio" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDI-sY-dHX">
+                                            <rect key="frame" x="24" y="12" width="366" height="26"/>
+                                            <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="28"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="TDI-sY-dHX" firstAttribute="top" secondItem="ebe-We-Zsn" secondAttribute="topMargin" constant="4" id="3Ad-X9-MTz"/>
+                                        <constraint firstItem="TDI-sY-dHX" firstAttribute="leading" secondItem="ebe-We-Zsn" secondAttribute="leadingMargin" constant="16" id="Jh4-uY-cQa"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="TDI-sY-dHX" secondAttribute="trailing" constant="16" id="XGt-K2-LLe"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="TDI-sY-dHX" secondAttribute="bottom" constant="4" id="fId-7f-vSn"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="categoryTitleLabel" destination="TDI-sY-dHX" id="ie7-pb-p7f"/>
+                                    </connections>
+                                </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="enP-TM-Wa7" id="aBV-Xl-eZR"/>
                                     <outlet property="delegate" destination="enP-TM-Wa7" id="nRv-yy-Blr"/>
@@ -191,14 +209,14 @@
                     <connections>
                         <outlet property="nowPlayingAnimationImageView" destination="ySP-43-Zqt" id="M7e-Co-EX1"/>
                         <outlet property="stationNowPlayingButton" destination="LhZ-Go-zL7" id="6CD-3L-Opj"/>
-                        <segue destination="vXZ-lx-hvc" kind="show" identifier="NowPlaying" id="Bfy-ow-vKF"/>
+                        <segue destination="vXZ-lx-hvc" kind="showDetail" identifier="NowPlaying" id="Bfy-ow-vKF"/>
                         <segue destination="Vgj-iH-C1a" kind="show" identifier="RadioSelection" id="Ugd-Jz-f4O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wn-sj-N6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Vap-UM-1Hd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="449.27536231884062" y="385.59782608695656"/>
+            <point key="canvasLocation" x="1356.521739130435" y="385.59782608695656"/>
         </scene>
         <!--Now Playing View-->
         <scene sceneID="ufC-wZ-h7g">
@@ -209,14 +227,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="obn-8m-awZ" userLabel="AlbumArt" customClass="SpringImageView" customModule="SwiftRadio" customModuleProvider="target">
-                                <rect key="frame" x="70" y="101" width="274" height="274"/>
+                                <rect key="frame" x="70" y="81" width="274" height="274"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="obn-8m-awZ" secondAttribute="height" multiplier="1:1" id="0o9-ZN-zY3"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="180" id="hCD-tK-vVP"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="WmY-ug-Nhz" userLabel="Controls Stack View">
-                                <rect key="frame" x="99" y="405" width="216" height="45"/>
+                                <rect key="frame" x="99" y="385" width="216" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6n-gy-z3a" userLabel="PreviousButton">
                                         <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
@@ -277,7 +295,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="a3Z-1t-AAA" userLabel="Volume Stack View">
-                                <rect key="frame" x="12" y="462" width="390" height="60"/>
+                                <rect key="frame" x="12" y="442" width="390" height="60"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vol-min" translatesAutoresizingMaskIntoConstraints="NO" id="Kmj-vC-DQe">
                                         <rect key="frame" x="0.0" y="22" width="18" height="16"/>
@@ -315,7 +333,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8xJ-4F-WCE" userLabel="Labels Stack View">
-                                <rect key="frame" x="12" y="534" width="390" height="63.333333333333371"/>
+                                <rect key="frame" x="12" y="514" width="390" height="63.333333333333371"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KC8-ZG-rx5" userLabel="Song Label" customClass="SpringLabel" customModule="SwiftRadio" customModuleProvider="target">
                                         <rect key="frame" x="129.66666666666666" y="0.0" width="130.99999999999997" height="31.333333333333332"/>
@@ -332,7 +350,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA9-OX-Xr1" userLabel="Station Desc Label">
-                                <rect key="frame" x="70" y="343" width="274" height="21"/>
+                                <rect key="frame" x="70" y="323" width="274" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="wJP-em-2hX"/>
                                 </constraints>
@@ -409,33 +427,63 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1163.768115942029" y="384.78260869565219"/>
+            <point key="canvasLocation" x="2357.971014492754" y="385.59782608695656"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="cxZ-Cy-z6Q">
+        <!--Tab Bar Controller-->
+        <scene sceneID="9U4-Kd-1ZE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kdl-ej-Zz5" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="A8J-Gu-F1O"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kFn-Yc-mPh">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                <tabBarController id="okA-XD-9uQ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XTe-PD-qVd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.16549107560000001" green="0.66666668650000005" blue="0.50064482489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                            <color key="textColor" red="0.16549107560000001" green="0.66666668650000005" blue="0.50064482489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.96758562326431274" green="0.16814762353897095" blue="0.048107825219631195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
                     <connections>
-                        <segue destination="enP-TM-Wa7" kind="relationship" relationship="rootViewController" id="209-h1-nYu"/>
+                        <segue destination="47z-Jb-PD2" kind="relationship" relationship="viewControllers" id="JNz-fz-gQa"/>
+                        <segue destination="D2s-Hc-qoD" kind="relationship" relationship="viewControllers" id="2Af-Qr-YDc"/>
+                        <segue destination="txq-vu-qQK" kind="relationship" relationship="viewControllers" id="feo-Ya-C91"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wQK-JQ-AqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oo1-Ei-DCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-248" y="385.90704647676165"/>
+            <point key="canvasLocation" x="-635" y="774"/>
+        </scene>
+        <!--Станции-->
+        <scene sceneID="Wxt-rC-35h">
+            <objects>
+                <viewController id="D2s-Hc-qoD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5bP-NL-JiY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CE0-xH-sDj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Станции" image="cellular_network" id="uGa-YW-h7k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wMR-jd-rdD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449" y="1117"/>
+        </scene>
+        <!--Избранное-->
+        <scene sceneID="qcl-Di-i7N">
+            <objects>
+                <viewController id="txq-vu-qQK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wmJ-wY-iYN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pmI-Wa-9Ug"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Избранное" image="following" id="EW3-Tn-m4M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cew-cA-kyX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449" y="2048"/>
         </scene>
         <!--Selection View Controller-->
         <scene sceneID="BGf-jv-sQf">
@@ -446,7 +494,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VLZ-pb-Uqa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="24" minimumInteritemSpacing="30" id="dwG-Xm-Xmf">
                                     <size key="itemSize" width="338" height="253"/>
@@ -463,7 +511,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGD-zY-BUy">
-                                                    <rect key="frame" x="18" y="28" width="64" height="84"/>
+                                                    <rect key="frame" x="18" y="8" width="64" height="104"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="64" id="h66-7I-XSe"/>
                                                     </constraints>
@@ -473,13 +521,13 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKF-w7-KeS">
-                                                    <rect key="frame" x="110" y="83" width="210" height="17"/>
+                                                    <rect key="frame" x="110" y="63" width="210" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTk-AP-4CR">
-                                                    <rect key="frame" x="110" y="50" width="210" height="21"/>
+                                                    <rect key="frame" x="110" y="30" width="210" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="9WQ-qP-vtI"/>
                                                     </constraints>
@@ -523,10 +571,32 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OaC-Z8-62O"/>
                     </view>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="showDetail" identifier="NowPlaying" id="hX4-8b-fx2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ntt-eQ-dYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="449" y="1263"/>
+            <point key="canvasLocation" x="2358" y="-470"/>
+        </scene>
+        <!--Главная-->
+        <scene sceneID="x4v-H0-3yn">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQH-Dt-Muc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="47z-Jb-PD2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Главная" image="today_apps" id="9Kc-iK-pQZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6nC-op-JaD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="enP-TM-Wa7" kind="relationship" relationship="rootViewController" id="qYp-Nx-EL2"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="449.27536231884062" y="385.59782608695656"/>
         </scene>
     </scenes>
     <resources>
@@ -537,8 +607,14 @@
         <image name="btn-previous" width="44" height="44"/>
         <image name="btn-stop" width="44" height="44"/>
         <image name="cardPlay" width="64" height="64"/>
+        <image name="cellular_network" width="30" height="30"/>
+        <image name="following" width="30" height="30"/>
         <image name="share" width="21" height="21"/>
+        <image name="today_apps" width="30" height="30"/>
         <image name="vol-max" width="16.666666030883789" height="14"/>
         <image name="vol-min" width="11" height="12.666666984558105"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Bfy-ow-vKF"/>
+    </inferredMetricsTieBreakers>
 </document>
